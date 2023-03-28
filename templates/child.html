@@ -1,0 +1,27 @@
+{% extends 'parent.html' %}
+{% load static %}
+
+{% block title %}
+    <title>Child Html Page</title>
+{% endblock %}
+
+
+{% block body_block %}
+    
+<h2>This Is Child Html File</h2>
+
+
+<h5> this is jspiders</h5>
+
+
+
+
+<div class="card" style="width: 18rem;">
+    <img src="{% static 'images/army1.jfif' %}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="https://en.wikipedia.org/wiki/India" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+{% endblock %}
